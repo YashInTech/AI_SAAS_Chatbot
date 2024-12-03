@@ -9,7 +9,12 @@
     "build": "tsc",
     "start": "node dist/index.js"
   },
-  "keywords": ["backend", "typescript", "express", "mongoose"],
+  "keywords": [
+    "backend",
+    "typescript",
+    "express",
+    "mongoose"
+  ],
   "author": "YashInTech",
   "license": "ISC",
   "dependencies": {
@@ -21,7 +26,8 @@
     "express": "^4.18.2",
     "express-validator": "^7.0.1",
     "jsonwebtoken": "^9.0.1",
-    "mongoose": "^7.5.0",
+    "mongoose": "^7.8.3",
+    "morgan": "^1.10.0",
     "openai": "^4.0.0"
   },
   "devDependencies": {
